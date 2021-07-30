@@ -6,6 +6,7 @@ let package = Package(
     name: "SwiftyMenu",
     platforms: [
         .iOS(.v10),
+	.macOS(.v10_12)
     ],
     products: [
         .library(
